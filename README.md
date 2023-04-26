@@ -5,4 +5,4 @@
 # Now i have my df prepared for "train_test_split", as "X" i use "df.Message" and as "y" "df.spam"
 # I need to change my "Message" into numerical value, so from "sklearn.feature_extraction.text" I import "CountVectorizer"
 # First i get "X_train_count" using "fit_transform" method on "X_train" on "values"
-# Then on "X_train_count" I use method "toarray" on my (3) column 
+# Then on "X_train_count" I use method "toarray" on my (3) column, I get my values in array
