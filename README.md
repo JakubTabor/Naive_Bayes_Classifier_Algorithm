@@ -12,3 +12,4 @@
 # Then I take "X_test" and "transform" it using "CountVectorizer" """X_test_count = v.transform(X_test)""" 
 # And i get "score" suplying my "MultinomialNB" "model" with "X_test_count" """model.score(X_test_count, y_test)"""
 # I gonna try also "classifier", so I from "sklearn.pipeline" import "Pipeline"
+# I supplement my classifier into "vectorizer" " CountVectorizer" and "model" "MultinomialNB"
