@@ -11,3 +11,4 @@
 # """emails_count = v.transform(emails)""" """model.predict(emails_count)""" and I get good predictions
 # Then I take "X_test" and "transform" it using "CountVectorizer" """X_test_count = v.transform(X_test)""" 
 # And i get "score" suplying my "MultinomialNB" "model" with "X_test_count" """model.score(X_test_count, y_test)"""
+# I gonna try also "classifier", so I from "sklearn.pipeline" import "Pipeline"
