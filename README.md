@@ -9,4 +9,5 @@
 # Next from "sklearn.naive_bayes" import "MultinomialNB" and train my model """model.fit(X_train_count, y_train)"""
 # I take 2 emails "true" and "spam" and use my "CountVectorizer" to "transform" my "emails", next i use my "model" to "predict" "prepared" "emails"
 # """emails_count = v.transform(emails)""" """model.predict(emails_count)""" and I get good predictions
-# Then I take "X_test" and "transform" it using "CountVectorizer" """X_test_count = v.transform(X_test)""" and i get "score" """model.score(X_test_count, y_test)"""
+# Then I take "X_test" and "transform" it using "CountVectorizer" """X_test_count = v.transform(X_test)""" 
+# And i get "score" suplying my "MultinomialNB" "model" with "X_test_count" """model.score(X_test_count, y_test)"""
