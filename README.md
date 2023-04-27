@@ -14,3 +14,4 @@
 # I gonna try also "classifier", so I from "sklearn.pipeline" import "Pipeline"
 # I supplement my classifier into "vectorizer" " CountVectorizer" and "model" "MultinomialNB"
 # Then I train my "classifier" """clf.fit(X_train, y_train)""" and get "score" """clf.score(X_test, y_test)"""
+# I also check if the predictions are right """clf.predict(emails)"""
