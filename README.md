@@ -7,3 +7,4 @@
 # First i get "X_train_count" using "fit_transform" method on "X_train" on "values"
 # Then on "X_train_count" I use method "toarray" on my (3) column, I get my values in array
 # Next from "sklearn.naive_bayes" import "MultinomialNB" and train my model """model.fit(X_train_count, y_train)"""
+# I take 2 emails "true" and "spam" and use my "CountVectorizer" to "transform" my "emails", next i use my "model" to "predict" "prepared" "emails"
